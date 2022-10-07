@@ -2,6 +2,11 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+import os
+from os.path import expanduser
+
+path_output = os.path.expanduser("~").replace(
+    '\\', '/') + '/OneDrive - Tower Three/Área de Trabalho/Projetos/ANBIMA/'
 
 ### Getting url from current day ###
 page = requests.get(
@@ -14,13 +19,13 @@ url = anbima + final
 
 ### Saving url in urls.txt ###
 # Reading and getting last url saved
-with open("urls.txt", "r") as f:
+with open(f"{path_output}urls.txt", "r") as f:
     text = f.read()
     last_line = text.split('\n')[-1]
 
 # Comparing last url saved with current url, if they are different, it will save the current url
 if last_line != url:
-    with open("urls.txt", "a") as f:
+    with open(f"{path_output}urls.txt", "a") as f:
         f.write('\n' + url)
     print(f"Url: {url} adicionada com sucesso!")
 else:
@@ -48,7 +53,7 @@ print(movimentacao_anbima)
 ### Saving Data ###
 try:
     movimentacao_anbima.to_excel(
-        f'{file_date}_movimentacaoFundosAnbima.xlsx', index=False, encoding='Latin-ASCII')
+        f'{path_output}files/{file_date}_movimentacaoFundosAnbima.xlsx', index=False, encoding='Latin-ASCII')
     print(f"Arquivo do dia {file_date} salvo com sucesso!")
 except:
     print(f"Falha no salvamento do arquivo do dia {file_date}")
