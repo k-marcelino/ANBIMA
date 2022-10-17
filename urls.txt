@@ -42,3 +42,8 @@ https://www.anbima.com.br/data/files/9E/05/DE/9E/4F3A3810F00B2A38882BA2A8/202209
 https://www.anbima.com.br/data/files/EF/F7/22/D2/13AA3810F00B2A38882BA2A8/20220930.xls
 https://www.anbima.com.br/data/files/6D/83/D4/7E/6CEA3810090098386B2BA2A8/20221003.xls
 https://www.anbima.com.br/data/files/21/14/62/B0/083B3810F00B2A38882BA2A8/20221004.xls
+https://www.anbima.com.br/data/files/52/E1/18/F9/D23C3810F00B2A38882BA2A8/20221005.xls
+https://www.anbima.com.br/data/files/CD/07/36/0B/D28C381091612C386B2BA2A8/20221006.xls
+https://www.anbima.com.br/data/files/73/F7/B2/B2/582D38100DD3DC38882BA2A8/20221007.xls
+https://www.anbima.com.br/data/files/F1/83/D5/21/4F7D38104305DC386B2BA2A8/20221010.xls
+https://www.anbima.com.br/data/files/15/D6/D2/50/537E38104305DC386B2BA2A8/20221011.xls
