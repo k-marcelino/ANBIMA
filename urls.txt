@@ -123,3 +123,6 @@ https://www.anbima.com.br/data/files/48/F5/CA/FC/E7316810218920686B2BA2A8/202301
 https://www.anbima.com.br/data/files/B6/71/20/AD/71916810218920686B2BA2A8/20230131.xls
 https://www.anbima.com.br/data/files/D3/01/1B/7D/29826810218920686B2BA2A8/20230201.xls
 https://www.anbima.com.br/data/files/DB/15/CF/DF/AED268109423C2686B2BA2A8/20230202.xls
+https://www.anbima.com.br/data/files/84/F5/52/24/572368109423C2686B2BA2A8/20230203.xls
+https://www.anbima.com.br/data/files/44/F1/66/64/9083681031D8D068882BA2A8/20230206.xls
+https://www.anbima.com.br/data/files/91/80/23/40/1DC3681031D8D068882BA2A8/20230207.xls
